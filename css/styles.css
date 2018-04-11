@@ -1,0 +1,121 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300i');
+
+
+
+/* UNIVERSAL STYLES */
+
+.white {
+    color: #fff;
+}
+
+h3 {
+    letter-spacing: 4px;
+}
+
+.abel-font {
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.4em;
+}
+
+/* NAVBAR STYLES START */
+
+.navbar-default {
+    border: none;
+    background-color: rgba(1, 1, 1, .2);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 3px rgba(1, 1, 1, .8);
+}
+
+.navbar-default.navbar-nav>li>a {
+    background-color: #fff;
+}
+
+/* NAVBAR STYLES END */
+
+/* CAROUSEL STYLES START */
+
+.flex-slide {
+    width: 100%;
+}
+
+.item {
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-image {
+    background-image: url('../img/reda-rachdi-545741-unsplash.jpg');
+}
+
+.artist-image {
+    background-image: url('../img/gabriel-laroche-390538-unsplash.jpg');
+}
+
+.hands-image {
+    background-image: url('../img/celine-preher-379152-unsplash.jpg');
+}
+
+/* CAROUSEL STYLES END */
+
+
+/* LOGO STYLES START */
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+}
+
+.skull-img {
+    height: 100%;
+    background: transparent;
+    width: 300px;
+}
+
+/* LOGO STYLES END */
+
+/* SPOTLIGHT STYLES START */
+
+.thumbnail-col {
+    margin: 0;
+}
+
+.thumbnail-row {
+    margin: 100px 0 0 0;
+}
+
+.thumbnail a>img, .thumbnail>img {
+    height: 250px;
+    width: 98%;
+}
+
+/* SPOTLIGHT STYLES END */
+
+/* REVIEW STYLES START */
+
+.review-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.review-text {
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    margin-top: 80px;
+}
+
+/* REVIEW STYLES END */
+

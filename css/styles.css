@@ -26,10 +26,9 @@ h3 {
 
 .navbar-default {
     border: none;
-    background-color: rgba(1, 1, 1, .2);
+    background-color: rgba(1, 1, 1, .8);
     font-family: 'Roboto', sans-serif;
     letter-spacing: 4px;
-    text-shadow: 1px 1px 3px rgba(1, 1, 1, .8);
 }
 
 .navbar-default.navbar-nav>li>a {
